@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="resume, cv, result.school" />
+    <meta name="description" content="Задание - моё резюме" />
+    <title>CV - Евгений Кулябин</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Container starts -->
+    <div class="container">
+      <!-- HEADER SECTION starts -->
+      <div class="intro">
+        <img src="imgs/avatar.jpg" alt="Аватарка" width="300" class="avatar" />
+
+        <div class="intro-text">
+          <h1>Евгений Кулябин</h1>
+
+          <p>Я начинающий Фронтенд разработчик</p>
+
+          <p>Изучаю разработку веб-приложений и дизайн интрефейсов</p>
+
+          <h4>Список социальных сетей:</h4>
+
+          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+          |
+          <a href="https://github.com" target="_blank">GitHub</a>
+          |
+          <a href="https://web.telegram.org" target="_blank">Telegram</a>
+        </div>
+      </div>
+      <!-- HEADER SECTION ends -->
+
+      <!-- MAIN SECTION starts -->
+      <div class="info">
+        <!-- SKILLS SECTION starts -->
+        <div class="card skills">
+          <h2>Мои технические знания и навыки:</h2>
+
+          <div class="skillset">
+            <div class="wrapper">
+              <div class="skills_list">
+                <div class="skills_list-left">
+                  <ul>
+                    <li>
+                      <em><strong>Основы HTML5</strong></em>
+                    </li>
+                    <ul class="underskill">
+                      <li><em>+ Семантика</em></li>
+                      <li><em>+ Валидация</em></li>
+                    </ul>
+                    <li>
+                      <em><strong>Основы CSS3</strong></em>
+                    </li>
+                    <ul class="underskill">
+                      <li><em>+ Flex/Grid</em></li>
+                    </ul>
+                  </ul>
+                </div>
+
+                <div class="skills_list-center">
+                  <ul>
+                    <li>
+                      <em><strong>Табличная вёрстка</strong></em>
+                    </li>
+                    <li>
+                      <em><strong>Адаптивная вёрстка</strong></em>
+                    </li>
+                    <li>
+                      <em><strong>Кроссбраузерная вёрстка</strong></em>
+                    </li>
+                    <li>
+                      <em><strong>Методология БЭМ</strong></em>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="skills_list-right">
+                  <h4>Навыки работы:</h4>
+
+                  <ul>
+                    <li>Console;</li>
+                    <li>Система контроля версий (git);</li>
+                    <li>Сервис GitHub;</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <img src="./imgs/skillset200.png" alt="img" />
+          </div>
+        </div>
+        <!-- SKILLS SECTION ends -->
+
+        <!-- COURSES SECTION starts -->
+        <div class="card courses">
+          <h2>Пройденные курсы:</h2>
+
+          <table class="table">
+            <thead>
+              <th>Онлайн-школа</th>
+              <th>Название курса</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Нетология</td>
+                <td>Как стать программистом</td>
+              </tr>
+              <tr>
+                <td>Udemy</td>
+                <td>HTML5, CSS3</td>
+              </tr>
+              <tr>
+                <td>Нетология</td>
+                <td>Основы вёрстки</td>
+              </tr>
+              <tr>
+                <td>Code-Basics</td>
+                <td>HTML для начинающих</td>
+              </tr>
+              <tr>
+                <td>Code-Basics</td>
+                <td>CSS для начинающих</td>
+              </tr>
+              <tr>
+                <td>Webref.ru</td>
+                <td>Самоучитель по HTML и CSS</td>
+              </tr>
+              <tr>
+                <td>Result.School</td>
+                <td>HTML&CSS</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- COURSES SECTION ends -->
+
+        <!-- PORTFOLIO SECTION starts -->
+        <div class="card portfolio">
+          <h2>Мои первые работы:</h2>
+
+          <ul class="works">
+            <li>
+              <img src="./imgs/work-1.jpg" alt="work" />
+              <a href="https://grishco.github.io/simple_template/">
+                Верстка макета из PSD (Simple Template)
+              </a>
+            </li>
+            <li>
+              <img src="./imgs/work-2.jpg" alt="work" />
+              <a href="https://grishco.github.io/creativedigitalagency/"
+                >Верстка макета из PSD (Creative Digital Agency)</a
+              >
+            </li>
+            <li>
+              <img src="./imgs/work-3.jpg" alt="work" />
+              <a href="https://grishco.github.io/moxa/"
+                >Верстка макета из PSD (MOXA)</a
+              >
+            </li>
+            <li>
+              <img src="./imgs/work-4.jpg" alt="work" />
+              <a href="https://grishco.github.io/nike/"
+                >Верстка слайдера из Figma (Nike)</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- PORTFOLIO SECTION ends -->
+      </div>
+      <!-- MAIN SECTION ends -->
+
+      <!-- CONTACT SECTION starts -->
+      <div class="contact">
+        <form action="/" class="form">
+          <h3>Связаться со мной:</h3>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Введите имя" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Ваш email:</label>
+              <input type="email" id="email" placeholder="Введите email" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Ваше сообщение:</label>
+            <textarea
+              id="message"
+              cols="30"
+              rows="5"
+              placeholder="Введите сообщение..."
+            ></textarea>
+          </div>
+
+          <input type="submit" value="Отправить!" class="btn" />
+        </form>
+      </div>
+      <!-- CONTACT SECTION ends -->
+    </div>
+    <!-- Container ends -->
+  </body>
+</html>
